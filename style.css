@@ -1,0 +1,369 @@
+/* general start */
+body {
+   font-family: 'Raleway', sans-serif;
+}
+
+a:link{
+  color: #929292;
+}
+a:hover{
+  color: #343434;
+}
+a:visited {
+  color: black;
+}
+
+/* general end */
+
+/* banner start */
+
+
+
+#banner{
+  background-image: url('./banner.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position:  30%; 
+  background-color: grey;
+  opacity: 0.9;
+
+  -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0.03)))
+}
+
+
+/* banner large, medium*/
+@media (min-width:  948px) {
+
+      #banner h1 {
+        padding-top: 15%;
+        font-size: 80px;  
+        font-weight: 100;
+        line-height: 0.5;
+        color:white;
+      }
+
+      #banner h3 {
+        padding-left: 45%;
+        font-weight: 300;  
+      }
+
+      #banner .glyphicon {
+        padding-bottom: 14%; 
+        font-size: 50px;
+      }
+}
+
+/* banner medium, small*/
+
+@media (max-width: 948px) {
+
+   #banner h1 {
+        padding-top: 5%;
+        font-size: 80px;  
+        font-weight: 100;
+        line-height: 0.9;
+        color:black;
+      }
+
+      #banner h3 {
+        
+        font-weight: 300;  
+        color: white;
+
+      }
+
+      #banner .glyphicon {
+        padding-bottom: 14%; 
+        font-size:40px;
+      }
+
+}
+
+/* banner  tiny*/
+
+/* banner end */
+
+
+#servicios {
+
+}
+
+#servicios h1 {
+  font-weight: 300;
+  color: #039D88;
+  margin-top: 5%;
+}
+
+
+#servicios hr { 
+    display: block;
+    align: center;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    margin-left: 40%;
+    margin-right: 40%;
+    border-style: inset;
+ }
+
+ .button {
+    background-color: #0CAD9E ; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    opacity: 0.7;
+}
+
+
+#bdpa {
+  background-image: url('./settings-gears.png');
+  background-repeat: no-repeat;
+  opacity: 0.9;
+}
+
+@media (min-width: 992px){
+  #bdpa {
+    background-size: 20%;
+    background-position: 50% 0%;
+    padding-bottom: 10%;
+    padding-top: 2%;
+    }
+      
+    #bdpa h4 {
+      font-size: 23px;
+      font-weight: 200;
+    }
+
+    #bdpa h5 {
+      
+      padding-top:10%;
+      color: #039D88; 
+    }
+  }
+
+@media (max-width: 991px){
+  #bdpa {
+    background-size: 10%;
+    background-position: 50% 0%;
+    padding-bottom: 7%;
+    padding-top: 2%;
+
+    }
+      
+    #bdpa h4 {
+      font-size: 23px;
+      font-weight: 200;
+    }
+
+    #bdpa h5 {
+      padding-top:3%;
+      color: #039D88; 
+    }
+  }
+
+
+#ctdi {
+  background-image: url('./one-finger.png');
+  background-repeat: no-repeat;
+  opacity: 0.8;
+}
+
+
+
+@media (min-width: 992px){
+  #ctdi {
+    background-size: 20%;
+    background-position: 50% 0%;
+    padding-bottom: 10%;
+    padding-top: 2%;
+    }
+      
+    #ctdi h4 {
+      font-size: 23px;
+      font-weight: 200;
+    }
+
+    #ctdi h5 {  
+      padding-top:5%;
+      color: #039D88; 
+    }
+  }
+
+@media (max-width: 991px){
+  #ctdi {
+    background-size: 10%;
+    background-position: 50% 0%;
+    padding-bottom: 7%;
+    padding-top: 2%;
+
+    }
+      
+    #ctdi h4 {
+      font-size: 23px;
+      font-weight: 200;
+    }
+
+    #ctdi h5 {
+      padding-top:3%;
+      color: #039D88; 
+    }
+  }
+
+
+
+#cdc {
+  background-image: url('./multiple.png');
+  background-repeat: no-repeat;
+  opacity: 0.8;
+}
+
+@media (min-width: 992px){
+  #cdc {
+    background-size: 20%;
+    background-position: 50% 0%;
+    padding-bottom: 10%;
+    padding-top: 2%;
+    }
+      
+    #cdc h4 {
+      font-size: 23px;
+      font-weight: 200;
+    }
+
+    #cdc h5 {  
+      padding-top:5%;
+      color: #039D88; 
+    }
+  }
+
+@media (max-width: 991px){
+  #cdc {
+    background-size: 10%;
+    background-position: 50% 0%;
+    padding-bottom: 7%;
+    padding-top: 2%;
+
+    }
+      
+    #cdc h4 {
+      font-size: 23px;
+      font-weight: 200;
+    }
+
+    #cdc h5 {
+      padding-top:3%;
+      color: #039D88; 
+    }
+  }
+
+#wd{
+  background-image: url('./quill-drawing-a-line.png');
+  background-repeat: no-repeat;
+  opacity: 0.8;
+}
+
+
+
+@media (min-width: 992px){
+  #wd {
+    background-size: 17%;
+    background-position: 50% 0%;
+    padding-bottom: 10%;
+    padding-top: 2%;
+    color: grey;
+    }
+      
+    #wd h4 {
+      font-size: 23px;
+      font-weight: 200;
+    }
+
+    #wd h5 {  
+      padding-top:5%;
+      color: #039D88; 
+    }
+  }
+
+@media (max-width: 991px){
+  #wd {
+    background-size: 10%;
+    background-position: 50% 0%;
+    padding-bottom: 7%;
+    padding-top: 2%;
+
+    }
+      
+    #wd h4 {
+      font-size: 23px;
+      font-weight: 200;
+    }
+
+    #wd h5 {
+      padding-top:3%;
+      color: #039D88; 
+    }
+  }
+
+#about h3 {
+    margin-top: 1%;
+    margin-bottom: 2%;
+    margin-left: 10%;
+    margin-right: 10%;  
+    padding-bottom: 5%;
+}
+
+#about hr { 
+    display: block;
+    align: center;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-style: inset;
+    padding-bottom: 5%;
+ }
+
+#contact, #about h1 {
+  font-weight: 300;
+  color: #039D88;
+}
+
+#contact hr { 
+    display: block;
+    align: center;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-style: inset;
+    padding-bottom: 5%;
+ }
+
+ #contact {
+  line-height: 0.5;
+  padding-bottom: 4%;
+  opacity: .9;
+ }
+
+
+#footer {
+  opacity: .9;
+  background-color: #039D88;
+}
+
+#footer p {
+  padding-left: 35%;
+}
+
+#footer i {
+padding-right: 1%;
+  }
+
+#footer #last {
+  padding-bottom: 2%;
+}
+
+

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400');
+    </style>
+    
+    <!-- Bootstrap cpn -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- JQuery --> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <!-- clipboar.js -->
+    <script src="https://cdn.jsdelivr.net/clipboard.js/1.6.0/clipboard.min.js"></script>
+
+    <!--- fa font -->
+    <script src="https://use.fontawesome.com/606c474abd.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/1.5.2/css/ionicons.min.css">
+        
+    <link rel="stylesheet" type="text/css" media="all" href="./style.css">
+        <script>
+                    
+                   jQuery(function(){
+                          jQuery('button').click(function(){
+                                
+                                jQuery('#div'+$(this).attr('target')).toggle(1000);
+                          });
+                  });
+
+                
+                $( document ).ready(function() {
+                    var clipboard = new Clipboard('.clipboard');
+                  });
+          </script>
+
+    <title>Smart Buisness Solutions</title> 
+
+  </head>
+      
+
+      <body>
+
+        <!-- header start -->
+        <div id="banner" class="container-fluid text-center">
+          <h1> Smart Buisness Solutions </h1>
+          <h3> Consultoría y capacitación profesional </h3>
+          <a href="#servicios"><i class="glyphicon glyphicon-chevron-down"></i></a>
+        </div>
+        <!-- header end -->
+        
+        <!-- Servicios start -->
+        <a name="servicios"></a>
+        <div id="servicios" class="container-fluid">
+          <div class="row">             
+            <div class="col-md-12">
+               <h1 class="text-center"> Servicios </h1>
+               <hr>
+            </div>
+          </div>
+
+          <div class="row">
+            <div id="bdpa" class="col-md-4">
+              <h4 class="text-center">Big Data - Predictive Analytics</h4>
+              <div class="text-center">
+                <button class="button" target="1">Info</button>
+              </div>
+              <div id="div1" class="targetDiv text-center" style="display:none">
+                <h5>Consultoría y Capacitación:</h5>
+                <p>Programación en R</p>
+                <p>Introducción a Hadoop</p>
+                <p>Introducción a Spark</p>
+                <p>Practical Data Science / Machine Learning</p>
+
+              </div>
+            </div>
+            
+            
+            <div id="ctdi" class="col-md-4">
+              <h4 class="text-center">Consultoria Tecnologias de Informacion</h4>
+              <div class="text-center">
+                <button id="color" class="button" target="2">Info</button>
+              </div>
+              <div id="div2" class="targetDiv text-center" style="display:none">
+                <h5>Servicios de consultoría TI:</h5>
+                
+                <p>Evaluación de proyectos TI. </p>
+                <p>Evaluación de adquisición de Soluciones de Software<p>
+                <p>Diseño de soluciones en la nube con Amazon Web Services</p>
+                <p>Integración de Sistemas (Service Oriented Architecture)</p>
+                <p>Proyectos de desarrollo de software.</p> 
+                <p>Desarrollo de aplicaciones Web</p>
+                <p>Desarrollo de Mobile Apps (Android / iPhone)</p>
+                
+               </div>
+            </div>
+            
+            <div id="cdc" class="col-md-4">
+              <h4 class="text-center">Cursos de Capacitacion</h4>
+              <div class="text-center">
+                <button class="button" target="3">Info</button>
+              </div>
+              <div id="div3" class="targetDiv text-center" style="display:none">
+                <h5>Cursos de programación para principiantes y avanzados:</h5>
+                
+                <p>Programación Orientada a Objetos con Java </p>
+                <p>Curso de C#.NET </p>
+                <p> Functional Programming en Python </p>
+                <p> Functional Programming en Scala </p>
+                <p>Programación para Android (Java) </p>
+                <p>Introducción a AWS (Amazon Web Services). </p>
+                
+              </div>
+            </div>
+
+              <div id="wd" class="col-md-6">
+              <h4 class="text-center">Diseño web</h4>
+              <div class="text-center">
+                <button id="color" class="button" target="4">Info</button>
+              </div>
+              <div id="div4" class="targetDiv text-center" style="display:none">
+                <h5>Diseño adaptable y eficiente.</h5>
+                
+              </div>
+          </div>
+        </div>
+        <!-- Servicios end -->
+
+        <a name="about"></a>
+        <div id="about" class="container-fluid">
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <h1 class="text-center" >Informacion</h1>
+              <hr>
+              <h3 class="text-center"> somtext here thatll explain vision or company's profile, plus logo or maybe some picture.</h3>
+            </div>
+          </div>
+        </div>
+
+        <!-- contact start -->
+        <a name="contact"></a>
+        <div id="contact" class="container-fluid">
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <h1 class="text-center" >Relevant Tweets</h1>
+              <hr>
+              <a class="twitter-timeline" data-width="500" data-height="500" href="https://twitter.com/IE_BigData">Tweets by TwitterDev</a> <script async src="./widget.js" charset="utf-8"></script>
+            </div>
+            
+            </div>
+          </div>
+        </div>
+
+        <footer>
+            <div class="container-fluid" id="footer">
+              <div class="row">
+                <div class="col-md-12 col-sm-6 text-left ">
+                  <h3 class="logofooter text-center"> Contactenos:</h3>
+                  <p><i class="fa fa-facebook"></i> Easy Solutions</p>
+                  <p><i class="fa fa-phone"></i> Phone: +502 5019 7041</p>
+                  <p><i class="fa fa-envelope" id="last"></i> E-mail : easysolutions@somewhere.com</p>
+                </div>
+              </div>
+            </div>
+          </footer>
+
+               
+      </body>
+</html>
+
+
+    
+
+
+
+
+
+
+              
+           
+
+               
+          
+        
+        <!-- Servicios end -->
